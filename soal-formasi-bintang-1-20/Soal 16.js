@@ -1,0 +1,6 @@
+// Soal 16 - Formasi bintang
+// Jalankan dengan: node "Soal 16.js"
+
+for (let i = 1; i <= 6; i++) {
+  console.log("0".repeat(6 - i) + "*".repeat(i));
+}
