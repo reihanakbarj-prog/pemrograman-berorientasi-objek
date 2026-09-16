@@ -1,0 +1,9 @@
+{
+  "name": "50-latihan-javascript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kumpulan 50 latihan JavaScript",
+  "scripts": {
+    "help": "node 01_reverse_sentence.js"
+  }
+}

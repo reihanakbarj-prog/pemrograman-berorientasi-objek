@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>39. Vertikal kiri bawah → atas → bawah</title>
+<style>
+  body { margin: 0; overflow: hidden; }
+  .area { position: relative; width: 100vw; height: 100vh; }
+  .angka { position: absolute; font: bold 30px monospace; animation: move 4s linear infinite; }
+  @keyframes move { 0%{left:0;top:calc(100% - 30px)} 50%{left:0;top:0} 100%{left:0;top:calc(100% - 30px)} }
+</style>
+</head>
+<body>
+<div class="area"><div class="angka">0</div></div>
+</body>
+</html>
